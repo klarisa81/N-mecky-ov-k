@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informace o německém ovčákovi">
+    <link rel="stylesheet" href="style.css">
+    <title>Německý Ovčák</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#domu" class="nav-link">Domů</a>
+        <a href="#historie" class="nav-link">Historie</a>
+        <a href="#pece" class="nav-link">Péče</a>
+        <a href="#galerie" class="nav-link">Galerie</a>
+        <a href="#kontakt" class="nav-link">Kontakt</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Německý Ovčák</h1>
+        <p>"Nejen váš přítel, ale komik s chlupy!"</p>
+        <button id="zjistitVice" class="button-info">Zjistit více</button>
+        <div class="hero-image">
+            <img src="obrazek 6.jpg" alt="Německý ovčák v přírodě">
+        </div>
+    </section>
+
+    <section id="historie">
+        <h2>Historie</h2>
+        <p>Historie německého ovčáka sahá do 19. století. Toto plemeno bylo vyšlechtěno nejen pro sílu, ale i pro
+            schopnost krást klobásy bez povšimnutí.</p>
+        <blockquote class="fun-fact">"Víte, že němečtí ovčáci byli jedním z prvních psů, kteří byli oficiálně použiti v
+            armádě?"</blockquote>
+    </section>
+
+    <section id="pece">
+        <h2>Péče o Německého Ovčáka</h2>
+        <p>Správná péče zahrnuje pravidelnou výživu, fyzickou aktivitu a péči o srst. Nezapomeňte také na spoustu hraček
+            – nebo vaše ponožky zmizí!</p>
+        <ul>
+            <li>Pravidelné česání pro zdravou srst.</li>
+            <li>Dostatek fyzického i mentálního tréninku.</li>
+            <li>Vhodná strava bohatá na bílkoviny.</li>
+        </ul>
+    </section>
+
+    <section id="galerie">
+        <h2>Galerie</h2>
+        <p>Podívejte se na krásné fotografie našich chlupatých komiků v akci.</p>
+        <div class="img-grid">
+            <img src="obrazek 3.jpg" alt="Německý ovčák dospělý">
+            <img src="obrazek 8.jpg" alt="Německý ovčák štěně">
+            <img src="obrazek 5.jpg" alt="Německý ovčák roztomilost">
+        </div>
+    </section>
+
+    <section id="unikatni-sekce">
+        <h2>Proč milujeme Německé Ovčáky?</h2>
+        <p>Němečtí ovčáci jsou jedineční díky jejich neuvěřitelné inteligenci, oddanosti a ochotě chránit. Ať už jste
+            dobrodruh, který potřebuje společníka, nebo rodina hledající věrného hlídače, tento pes má všechno.</p>
+        <div class="quote">
+            <blockquote>
+                "Pes je jediný tvor na světě, který vás miluje víc, než sám sebe." - Josh Billings
+            </blockquote>
+        </div>
+        <div class="interactive-feature">
+            <button id="learnMore" class="button-learn">Zjistit další zajímavosti</button>
+            <ul id="interestingFacts" class="hidden-facts">
+                <li>Němečtí ovčáci slouží v armádě a policii po celém světě.</li>
+                <li>Jsou jedním z nejinteligentnějších plemen psů.</li>
+                <li>Mají výjimečně silný čich, díky čemuž jsou vynikající stopaři.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="hra">
+        <h2>Hádej aktivitu</h2>
+        <p>Zkuste uhádnout, jakou aktivitu má Německý Ovčák nejraději!</p>
+        <input id="userGuess" type="text" placeholder="Váš tip na aktivitu">
+        <button id="submitGuess">Odeslat tip</button>
+        <p id="activityResult"></p>
+    </section>
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Vaše jméno" required>
+            <input type="email" placeholder="Váš e-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <textarea rows="5" placeholder="Vaše zpráva" required minlength="10"></textarea>
+            <button type="submit">Odeslat</button>
+        </form>
+    </section>
+
+    <button id="scrollTop" title="Návrat na začátek stránky">⬆</button>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
