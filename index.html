@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informace o německém ovčákovi">
+    <link rel="stylesheet" href="style.css">
+    <title>Německý Ovčák</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <button id="menu-toggle">&#9776;</button>
+            <div class="nav-links">
+                <a href="#domu" class="nav-link">Domů</a>
+                <a href="#historie" class="nav-link">Historie</a>
+                <a href="#pece" class="nav-link">Péče</a>
+                <a href="#galerie" class="nav-link">Galerie</a>
+                <a href="#kontakt" class="nav-link">Kontakt</a>
+            </div>
+            <button id="dark-mode-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Německý Ovčák</h1>
+            <p>"Nejen váš přítel, ale komik s chlupy!"</p>
+            <p>Německý ovčák je nejen skvělým ochráncem, ale také inteligentním a loajálním společníkem. Díky své
+                chytrosti je jedním z nejčastěji využívaných plemen ve službách policie a záchranářů.</p>
+            <button id="zjistitVice" class="button-info">Zjistit více</button>
+            <p id="zajimavost" style="display: none; font-weight: bold; margin-top: 1rem;"></p>
+        </div>
+        <div class="hero-image">
+            <img src="obrazek 6.jpg" alt="Německý ovčák v přírodě">
+        </div>
+    </section>
+
+    <main>
+        <section id="historie" class="content-section">
+            <h2>Historie</h2>
+            <p>Historie německého ovčáka sahá do 19. století.Německý ovčák je jedno z nejrozšířenějších psích plemen na světě, které je považováno za jedno z nejinteligentnějších.1
+            Plemeno vzniklo v 19. století v Německu, kde se začaly sjednocovat exteriérové rysy ovčáckých psů.1
+            Za šlechtění a rozvoj plemene se přičinil například rytmistr Max Emil Friedrich von Stephanitz, který propagoval tyto
+            psy mezi vojáky i policií a společně se svým spolupracovníkem Arthurem Meyerem sepsal první standard.1
+            Plemeno bylo uznáno United Kennel Clubem v roce 1899 a Mezinárodní kynologickou federací v roce 1955.1
+            Chov ovčáckých psů má v Německu dlouhou tradici, kde již v šestém století existoval zákon, který za zabití ovčáckého psa
+            viníka tvrdě trestal.1</p>
+        </section>
+
+        <section id="pece" class="content-section">
+            <h2>Péče o Německého Ovčáka</h2>
+            <ul>
+                <li>Pravidelné česání pro zdravou srst.</li>
+                <li>Dostatek fyzického i mentálního tréninku.</li>
+                <li>Vhodná strava bohatá na bílkoviny.</li>
+            </ul>
+        </section>
+
+        <section id="galerie" class="content-section">
+            <h2>Galerie</h2>
+            <div class="img-grid">
+                <div class="img-container"><img src="obrazek 3.jpg" alt="Dospělý ovčák"></div>
+                <div class="img-container"><img src="obrazek 8.jpg" alt="Štěně ovčáka"></div>
+                <div class="img-container"><img src="obrazek 5.jpg" alt="Roztomilý ovčák"></div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="content-section">
+            <h2>Kontakt</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Vaše jméno" required>
+                <input type="email" placeholder="Váš e-mail" required>
+                <input type="password" id="password" placeholder="Heslo" required>
+                <input type="password" id="confirm-password" placeholder="Potvrzení hesla" required>
+                <p id="password-message"></p>
+                <button type="submit">Odeslat</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Německý Ovčák. Všechna práva vyhrazena.</p>
+    </footer>
+
+    <button id="scrollTop">⬆</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
